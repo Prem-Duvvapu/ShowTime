@@ -14,7 +14,7 @@ The **ShowTime** project encapsulates the different components of a movie bookin
 
 ### 🎬 Movie Management
 
-- **Movie**: Contains details about a movie, such as title, duration, genre, and language.
+- **Movie**: Contains details about a movie, such as title, and duration.
 - **MovieController**: Responsible for managing movies – adding, removing, or fetching movie listings.
 
 ### 🏢 Theatre and City

@@ -1,4 +1,4 @@
-package BookMyShow;
+package ShowTime;
 import java.util.*;
 
 public class TheatreController {

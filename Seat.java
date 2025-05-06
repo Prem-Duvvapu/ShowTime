@@ -1,4 +1,4 @@
-package BookMyShow;
+package ShowTime;
 
 public class Seat {
     int id;

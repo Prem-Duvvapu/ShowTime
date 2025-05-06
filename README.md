@@ -18,42 +18,46 @@ ShowTime is a Java-based console application that simulates a basic movie ticket
     ```bash
     java ShowTime.BookMyTicket
 
-📖 Project Overview
-The ShowTime project encapsulates the different components of a movie booking system. It follows an object-oriented design, separating concerns into various well-defined classes. Here’s a breakdown of the key components:
+## 📖 Project Overview
 
-🎟️ Core Classes
-Seat: Represents a seat in the theatre, including seat number, row, and category (e.g., Gold, Silver).
+The **ShowTime** project encapsulates the different components of a movie booking system. It follows an object-oriented design, separating concerns into various well-defined classes. Here’s a breakdown of the key components:
 
-SeatCategory: Enum or class to classify different types of seats with different pricing.
+### 🎟️ Core Classes
 
-Screen: Defines the layout of the theatre screen, including rows and columns of seats.
+- **Seat**: Represents a seat in the theatre, including seat number, row, and category (e.g., Gold, Silver).
+- **SeatCategory**: Enum or class to classify different types of seats with different pricing.
+- **Screen**: Defines the layout of the theatre screen, including rows and columns of seats.
+- **Ticket**: Represents a booked ticket, mapping a user to the seat(s), movie, and showtime.
+- **Payment**: Handles payment logic, such as calculating total price and simulating transaction success/failure.
 
-Ticket: Represents a booked ticket, mapping a user to the seat(s), movie, and showtime.
+### 🎬 Movie Management
 
-Payment: Handles payment logic, such as calculating total price and simulating transaction success/failure.
+- **Movie**: Contains details about a movie, such as title, duration, genre, and language.
+- **MovieController**: Responsible for managing movies – adding, removing, or fetching movie listings.
 
-🎬 Movie Management
-Movie: Contains details about a movie, such as title, duration, genre, and language.
+### 🏢 Theatre and City
 
-MovieController: Responsible for managing movies – adding, removing, or fetching movie listings.
+- **Theatre**: Represents a movie theatre, containing multiple screens and a list of movies being played.
+- **City**: Represents a city that contains multiple theatres for regional support.
 
-🏢 Theatre and City
-Theatre: Represents a movie theatre, containing multiple screens and a list of movies being played.
+### 🎮 Controller
 
-City: Represents a city that contains multiple theatres for regional support.
+- **TheatreController**: Manages theatres across different cities, enabling movie show listings, bookings, and theatre registration.
 
-🎮 Controller
-TheatreController: Manages theatres across different cities, enabling movie show listings, bookings, and theatre registration.
+### 🧪 Demonstration
 
-🧪 Demonstration
-BookMyTicket: This is the entry point of the application. It demonstrates the complete flow of the ticket booking system — from listing movies, selecting a theatre and screen, to booking a seat and making a payment.
+- **BookMyTicket**: This is the entry point of the application. It demonstrates the complete flow of the ticket booking system — from listing movies, selecting a theatre and screen, to booking a seat and making a payment.
 
-🛠️ Technologies Used
-Java (Standard Edition)
+---
 
-Object-Oriented Programming Principles
+## 🛠️ Technologies Used
 
-📌 Notes
-This project runs in a console environment; no GUI or database integration is included.
+- Java (Standard Edition)
+- Object-Oriented Programming Principles
 
-This project is ideal for understanding how a ticket booking system can be modeled using core Java.
+---
+
+## 📌 Notes
+
+- This project runs in a console environment; no GUI or database integration is included.
+- This project is ideal for understanding how a ticket booking system can be modeled using core Java.

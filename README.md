@@ -9,10 +9,14 @@ ShowTime is a Java-based console application that simulates a basic movie ticket
    ```bash
    cd ShowTime
 
-javac -d . *.java
+2. Compile all Java files:
 
+    ```bash
+    javac -d . *.java
 
-java ShowTime.BookMyTicket
+3. Run the main application
+    ```bash
+    java ShowTime.BookMyTicket
 
 📖 Project Overview
 The ShowTime project encapsulates the different components of a movie booking system. It follows an object-oriented design, separating concerns into various well-defined classes. Here’s a breakdown of the key components:
